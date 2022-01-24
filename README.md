@@ -17,7 +17,9 @@ The live version can be found here
 
 
 ## Technologies Used
-  *python ORM
+  *Python ORM
+  *SQLAlchemy
+  *Flask
   
 ## Github
 Pmarti53
@@ -28,4 +30,4 @@ Peter Martinez
 ## License
 MIT License
 
-Copyright (c) 2021 Peter Martinez
+Copyright (c) 2022 Peter Martinez
