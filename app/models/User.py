@@ -7,7 +7,7 @@ salt = bcrypt.gensalt()
 
 
 class User(Base):
-    
+
     salt = bcrypt.gensalt()
 
     __tablename__ = 'users'
@@ -27,3 +27,9 @@ class User(Base):
         assert len(password) > 4
 
         return bcrypt.hashpw(password.encode('utf-8'), salt)
+
+    def verify_password(self, password):
+        return bcrypt.checkpw(
+            password.encode('utf-8'),
+            self.password.encode('utf-8')
+        )
