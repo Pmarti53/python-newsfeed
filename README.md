@@ -2,7 +2,7 @@
 
 
 ## Description
-This app is a platform created so that users can easily share ideas and thoughts. This is an easy to use social media web application that allows users to connect with others by posting thoughts, replying to other thoughts and more.
+This app uses Python to refactor an existing application that was originally built using Node.js. The app, called Just Tech News, is a website where users can post, upvote, and comment on links to news articles. Instead of using Node.js as the back-end language and Handlebars.js as the templating engine, using Python to create the app and the Python Flask framework to create the application’s views.
 
 ## Website
 The live version can be found here 
