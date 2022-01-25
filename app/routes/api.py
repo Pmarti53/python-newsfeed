@@ -23,7 +23,7 @@ def signup():
         db.add(newUser)
         db.commit()
     except:
-        print(sys.exc_info([0]))
+        print(sys.exc_info()[0])
 
         db.rollback()
         return jsonify(message='Signup failed'), 500
